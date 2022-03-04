@@ -9,6 +9,8 @@ sudo apt build-dep ffmpeg
 
 fix sources.list with vi
 
+  sudo vi /etc/apt/sources.list
+
   ```
   :%s/# deb-src/deb-src/
   :wq
