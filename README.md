@@ -80,4 +80,5 @@ source /etc/profile
     -flags:v +global_header -bsf:v "dump_extra=freq=keyframe" \
     -max_delay 0 -an -bufsize 1M -vsync 1 -g 10 \
     -f rtp rtp://0.0.0.0:8000/
+    
     ```
